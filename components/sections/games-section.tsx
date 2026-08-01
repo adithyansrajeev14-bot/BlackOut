@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Game } from '@/lib/store';
 import { Search, Monitor, Gamepad2, Users, Star, Calendar } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -87,10 +88,11 @@ export function GamesSection({ games, onSelectGameForBooking }: GamesSectionProp
               <div>
                 {/* Image & Platform Badge */}
                 <div className="relative h-48 w-full overflow-hidden bg-black">
-                  <img
+                  <Image
                     src={game.image}
                     alt={game.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-85 group-hover:opacity-100"
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500 opacity-85 group-hover:opacity-100"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md border border-white/10 text-[11px] font-bold text-white">

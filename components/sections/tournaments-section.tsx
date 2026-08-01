@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Tournament } from '@/lib/store';
 import { Trophy, Calendar as CalendarIcon, Clock, Users, Shield, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -64,10 +65,11 @@ export function TournamentsSection({ tournaments }: TournamentsSectionProps) {
               className="rounded-2xl glass-gold-card overflow-hidden flex flex-col md:flex-row group"
             >
               <div className="md:w-1/2 relative min-h-[220px]">
-                <img
+                <Image
                   src={t.image}
                   alt={t.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />

@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { Calendar, Tag, ShieldCheck, Zap, Trophy, Users } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -21,10 +22,12 @@ export function HeroSection({ onBookClick, onPricingClick }: HeroSectionProps) {
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden">
       {/* Background Image with Dark Vignette */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="/images/blackout_hero.jpg"
           alt="BLACKOUT Gaming Lounge"
-          className="w-full h-full object-cover object-center scale-105 filter brightness-50 contrast-125"
+          fill
+          priority
+          className="object-cover object-center scale-105 filter brightness-50 contrast-125"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/70 to-[#050505]/40" />
