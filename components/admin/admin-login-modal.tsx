@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { ShieldCheck, Lock, X, KeyRound } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 interface AdminLoginModalProps {
   isOpen: boolean;

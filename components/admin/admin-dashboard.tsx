@@ -49,7 +49,7 @@ import {
   Check
 } from 'lucide-react';
 import { formatCurrency, formatDate } from '@/lib/utils';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 interface AdminDashboardProps {
   bookings: Booking[];
