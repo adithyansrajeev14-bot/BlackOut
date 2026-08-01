@@ -130,11 +130,11 @@ export function Footer({ setActiveTab, onOpenAdmin }: FooterProps) {
             <div className="space-y-3 text-sm text-gray-300">
               <p className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#f4b400] shrink-0 mt-0.5" />
-                <span>404 Cyberpunk Blvd, Suite 101, Downtown Esports District</span>
+                <span>Lissie Road, Near Kuluki Cafe, Ernakulam</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#f4b400] shrink-0" />
-                <span>+1 (800) 555-BLACKOUT</span>
+                <span>+91 9995536333</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#f4b400] shrink-0" />

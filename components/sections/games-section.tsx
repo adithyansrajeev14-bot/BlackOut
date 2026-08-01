@@ -9,9 +9,10 @@ import { motion } from 'motion/react';
 interface GamesSectionProps {
   games: Game[];
   onSelectGameForBooking: (gameTitle: string, platform: 'PS5' | 'PC') => void;
+  columns?: number;
 }
 
-export function GamesSection({ games, onSelectGameForBooking }: GamesSectionProps) {
+export function GamesSection({ games, onSelectGameForBooking, columns = 4 }: GamesSectionProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [platformFilter, setPlatformFilter] = useState<'All' | 'PS5' | 'PC'>('All');
 
@@ -75,7 +76,7 @@ export function GamesSection({ games, onSelectGameForBooking }: GamesSectionProp
         </div>
 
         {/* Game Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className={`grid grid-cols-1 sm:grid-cols-2 ${columns === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-4'} gap-6`}>
           {filteredGames.map((game, idx) => (
             <motion.div
               key={game.id}

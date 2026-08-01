@@ -37,7 +37,7 @@ export function ContactSection() {
             LOCATION & <span className="text-[#f4b400]">CONTACT</span>
           </h2>
           <p className="max-w-2xl mx-auto text-gray-400 text-sm sm:text-base">
-            Visit our arena in Downtown Esports District or get in touch for private lounge bookings and birthday party packages.
+            Visit our arena at Lissie Road, Ernakulam or get in touch for private lounge bookings and birthday party packages.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export function ContactSection() {
               <div className="p-5 rounded-2xl glass-gold-card">
                 <MapPin className="w-6 h-6 text-[#f4b400] mb-3" />
                 <h3 className="text-base font-bold text-white mb-1">Arena Address</h3>
-                <p className="text-xs text-gray-400">404 Cyberpunk Blvd, Suite 101, Downtown Esports District</p>
+                <p className="text-xs text-gray-400">Lissie Road, Near Kuluki Cafe, Ernakulam</p>
               </div>
 
               <div className="p-5 rounded-2xl glass-gold-card">
@@ -61,9 +61,9 @@ export function ContactSection() {
               <div className="p-5 rounded-2xl glass-gold-card">
                 <Phone className="w-6 h-6 text-[#f4b400] mb-3" />
                 <h3 className="text-base font-bold text-white mb-1">Phone / WhatsApp</h3>
-                <p className="text-xs text-gray-400">+1 (800) 555-BLACKOUT</p>
+                <p className="text-xs text-gray-400">+91 9995536333</p>
                 <a
-                  href="https://wa.me/18005552522"
+                  href="https://wa.me/919995536333"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-1.5 mt-2 text-xs font-bold text-emerald-400 hover:underline"
@@ -92,7 +92,7 @@ export function ContactSection() {
             <div className="rounded-2xl overflow-hidden border border-white/10 relative h-64 bg-[#141414]">
               <iframe
                 title="BLACKOUT Gaming Cafe Location"
-                src="https://maps.google.com/maps?q=San%20Francisco%20Downtown&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Lissie%20Road,%20Near%20Kuluki%20Cafe,%20Ernakulam&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full border-0 filter invert contrast-125 saturate-50 opacity-80"
                 loading="lazy"
                 referrerPolicy="no-referrer"
