@@ -1,0 +1,6 @@
+{
+  "name": "Blackout Gaming Cafe",
+  "description": "Premium esports arena and slot booking web application featuring VIP lounges, tournament registration, real-time slot booking, and full admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
