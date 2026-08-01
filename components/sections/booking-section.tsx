@@ -6,7 +6,7 @@ import { Calendar, Clock, Gamepad2, Monitor, Users, ShieldAlert, Sparkles, Check
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { formatCurrency, generateBookingCode, formatDate } from '@/lib/utils';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 interface BookingSectionProps {
   games: Game[];

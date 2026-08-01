@@ -15,7 +15,7 @@ import {
   X,
   Globe
 } from 'lucide-react';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 interface AuthPageProps {
   onLoginSuccess: (user: AuthUser) => void;

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Tournament } from '@/lib/store';
 import { Trophy, Calendar as CalendarIcon, Clock, Users, Shield, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 interface TournamentsSectionProps {
   tournaments: Tournament[];

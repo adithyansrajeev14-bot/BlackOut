@@ -22,31 +22,31 @@ import {
   DEFAULT_USERS,
   getStoredData,
   setStoredData,
-} from '../lib/store';
-import { ToastProvider } from '../components/toast-provider';
-import { Navbar } from '../components/navbar';
-import { Footer } from '../components/footer';
-import { ParticleBackground } from '../components/particle-background';
-import { ScrollProgress } from '../components/scroll-progress';
-import { BackToTop } from '../components/back-to-top';
+} from '@/lib/store';
+import { ToastProvider } from '@/components/toast-provider';
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { ParticleBackground } from '@/components/particle-background';
+import { ScrollProgress } from '@/components/scroll-progress';
+import { BackToTop } from '@/components/back-to-top';
 
-import { HeroSection } from '../components/sections/hero-section';
-import { AboutSection } from '../components/sections/about-section';
-import { GamesSection } from '../components/sections/games-section';
-import { PricingSection } from '../components/sections/pricing-section';
-import { GallerySection } from '../components/sections/gallery-section';
-import { TournamentsSection } from '../components/sections/tournaments-section';
-import { ReviewsSection } from '../components/sections/reviews-section';
-import { FaqSection } from '../components/sections/faq-section';
-import { NewsletterSection } from '../components/sections/newsletter-section';
-import { ContactSection } from '../components/sections/contact-section';
-import { BookingSection } from '../components/sections/booking-section';
-import { ArticlesSection } from '../components/sections/articles-section';
+import { HeroSection } from '@/components/sections/hero-section';
+import { AboutSection } from '@/components/sections/about-section';
+import { GamesSection } from '@/components/sections/games-section';
+import { PricingSection } from '@/components/sections/pricing-section';
+import { GallerySection } from '@/components/sections/gallery-section';
+import { TournamentsSection } from '@/components/sections/tournaments-section';
+import { ReviewsSection } from '@/components/sections/reviews-section';
+import { FaqSection } from '@/components/sections/faq-section';
+import { NewsletterSection } from '@/components/sections/newsletter-section';
+import { ContactSection } from '@/components/sections/contact-section';
+import { BookingSection } from '@/components/sections/booking-section';
+import { ArticlesSection } from '@/components/sections/articles-section';
 
-import { AuthModal } from '../components/auth/auth-modal';
-import { AuthPage } from '../components/auth/auth-page';
-import { UserProfileModal } from '../components/auth/user-profile-modal';
-import { AdminDashboard } from '../components/admin/admin-dashboard';
+import { AuthModal } from '@/components/auth/auth-modal';
+import { AuthPage } from '@/components/auth/auth-page';
+import { UserProfileModal } from '@/components/auth/user-profile-modal';
+import { AdminDashboard } from '@/components/admin/admin-dashboard';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<string>('home');

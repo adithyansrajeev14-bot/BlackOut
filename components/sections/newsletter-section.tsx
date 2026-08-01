@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Mail, Sparkles, CheckCircle2 } from 'lucide-react';
-import { useToast } from '../toast-provider';
+import { useToast } from '@/components/toast-provider';
 
 export function NewsletterSection() {
   const { showToast } = useToast();
